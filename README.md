@@ -54,16 +54,52 @@ For detailed usage instructions, please refer to the [SETUP_MODELS.md](SETUP_MOD
 ## Demos
 ### Reason-informed video editing
 <div align="center">
-<table>
-  <tr><td colspan="2" style="text-align:center"><strong>What if the the dog ran into the depth of a forest?</strong></td></tr>
-  <tr><td><img src="./assets/demo_001.gif" /></td><td><img src="./assets/demo_002.gif" /></td></tr>
+<table style="border-collapse: collapse; width: 60%; font-size: 14px;">
+  
+  <tr>
+    <td colspan="2" style="text-align:center; padding:6px;">
+      <strong>What if the the dog ran into the depth of a forest?</strong>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center; padding:4px;">
+      <img src="./assets/demo_001.gif" style="width:250px; height:auto;" />
+    </td>
+    <td style="text-align:center; padding:4px;">
+      <img src="./assets/demo_002.gif" style="width:250px; height:auto;" />
+    </td>
+  </tr>
 
-  <tr><td colspan="2" style="text-align:center"><strong>What if the girl’s fragrance gently attracted a delicate butterfly, fluttering toward her?</strong></td></tr>
-  <tr><td><img src="./assets/demo_003.gif" /></td><td><img src="./assets/demo_004.gif" /></td></tr>
+  <tr>
+    <td colspan="2" style="text-align:center; padding:6px;">
+      <strong>What if the girl’s fragrance gently attracted a delicate butterfly, fluttering toward her?</strong>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center; padding:4px;">
+      <img src="./assets/demo_003.gif" style="width:250px; height:auto;" />
+    </td>
+    <td style="text-align:center; padding:4px;">
+      <img src="./assets/demo_004.gif" style="width:250px; height:auto;" />
+    </td>
+  </tr>
 
-  <tr><td colspan="2" style="text-align:center"><strong>What if the scene transitioned from a magical night to a dawn, causing the northern lights to fade away？</strong></td></tr>
-  <tr><td><img src="./assets/demo_005.gif" /></td><td><img src="./assets/demo_006.gif" /></td></tr>
+  <tr>
+    <td colspan="2" style="text-align:center; padding:6px;">
+      <strong>What if the scene transitioned from a magical night to a dawn, causing the northern lights to fade away?</strong>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center; padding:4px;">
+      <img src="./assets/demo_005.gif" style="width:250px; height:auto;" />
+    </td>
+    <td style="text-align:center; padding:4px;">
+      <img src="./assets/demo_006.gif" style="width:250px; height:auto;" />
+    </td>
+  </tr>
+
 </table>
+</div>
 
 </div>
 

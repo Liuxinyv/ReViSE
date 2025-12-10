@@ -52,9 +52,7 @@ bash finetune_revise.sh
 For detailed usage instructions, please refer to the [SETUP_MODELS.md](SETUP_MODELS.md). -->
 
 ## Demos
-### Video-to-Video
-Our model offers reason-informed video editing capabilities.
-
+### Reason-informed video editing
 <div align="center">
 <table>
   <tr><td colspan="2" style="text-align:center"><strong>What if the the dog ran into the depth of a forest?</strong></td></tr>

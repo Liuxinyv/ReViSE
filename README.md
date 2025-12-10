@@ -17,7 +17,7 @@ Chi-Min Chan, Kang Zhao, Shiwei Zhang, Wenhan Luo<sup>&#9993;</sup>, QiYike Guo
 - [√] Release pre-trained checkpoints on RVE-Bench
 - [√] Release the inference code of our model to facilitate further research and reproducibility.
 - [ ] Release the RVE-Bench data
-- [ ] Release the training code [after paper accepted]
+- [ ] Release the training code
 
 ## 🚀 Quick Start
 1. Create conda environment
@@ -38,7 +38,7 @@ export LD_LIBRARY_PATH="${CUDA_HOME}/lib64:${LD_LIBRARY_PATH}"
 export PYTHONPATH="${PWD}:${PWD}/nets/third_party:${PYTHONPATH}"
 ```
 3. Downloading checkpoints
-Download our pretrained model checkpoint [here](https://huggingface.co/xiaomi-research/dggt/resolve/main/model_difix.pkl?download=true) to `pretrained/diffusion_model.pth`.
+Download our pretrained model checkpoint [here](https://huggingface.co/xiaomi-research/dggt/resolve/main/model_difix.pkl?download=true).
 
 ### Inference
 ```bash
@@ -61,7 +61,7 @@ Our model offers reason-informed video editing capabilities.
   <tr><td><img src="./assets/demo_001.gif" /></td><td><img src="./assets/demo_002.gif" /></td></tr>
 
   <tr><td colspan="2" style="text-align:center"><strong>What if the girl’s fragrance gently attracted a delicate butterfly, fluttering toward her?</strong></td></tr>
-  <tr><td><img src="./assets/demo_001.gif" /></td><td><img src="./assets/demo_004.gif" /></td></tr>
+  <tr><td><img src="./assets/demo_003.gif" /></td><td><img src="./assets/demo_004.gif" /></td></tr>
 
   <tr><td colspan="2" style="text-align:center"><strong>What if the scene transitioned from a magical night to a dawn, causing the northern lights to fade away？</strong></td></tr>
   <tr><td><img src="./assets/demo_005.gif" /></td><td><img src="./assets/demo_006.gif" /></td></tr>

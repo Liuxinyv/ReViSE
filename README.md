@@ -1,8 +1,10 @@
 <div align="center">
 <h1>ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning</h1>
+<a href="https://arxiv.org/abs/2512.09924" target="_blank">
+  <img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white" alt="arXiv">
+</a>
 
-
-Xinyu Liu, Hangjie Yuan*<sup>&#9993;</sup>, Yujie Wei, Jiazheng Xing, Yujin Han, Jiahao Pan, Yanbiao Ma, 
+Xinyu Liu, Hangjie Yuan*<sup>&#9993;</sup>, Yujie Wei, Jiazheng Xing, Yujin Han, Jiahao Pan, Yanbiao Ma, <br>
 Chi-Min Chan, Kang Zhao, Shiwei Zhang, Wenhan Luo<sup>&#9993;</sup>, QiYike Guo
 
 <sup>*</sup>Project Leader
@@ -10,9 +12,14 @@ Chi-Min Chan, Kang Zhao, Shiwei Zhang, Wenhan Luo<sup>&#9993;</sup>, QiYike Guo
 
 </div>
 
-> Abstract: Video unified models exhibit strong capabilities in understanding and generation, yet they struggle with reason-informed visual editing even when equipped with powerful internal vision-language models (VLMs). We attribute this gap to two factors: 1) existing datasets are inadequate for training and evaluating reasoning-aware video editing, and 2) an inherent disconnect between the models' reasoning and editing capabilities, which prevents the rich understanding from effectively instructing the editing process. Bridging this gap requires an integrated framework that connects reasoning with visual transformation. To address this gap, we introduce the Reason-Informed Video Editing (RVE) task, which requires reasoning about physical plausibility and causal dynamics during editing. To support systematic evaluation, we construct RVE-Bench, a comprehensive benchmark with two complementary subsets: Reasoning-Informed Video Editing and In-Context Video Generation. These subsets cover diverse reasoning dimensions and real-world editing scenarios. Building upon this foundation, we propose the ReViSE, a Self-Reflective Reasoning (SRF) framework that unifies generation and evaluation within a single architecture. The model’s internal VLM provides intrinsic feedback by assessing whether the edited video logically satisfies the given instruction. The differential feedback that refines the generator’s reasoning behavior during training. Extensive experiments on RVE-Bench demonstrate that ReViSE significantly enhances editing accuracy and visual fidelity, achieving a 32$\%$ improvement of Overall score in reasoning-informed video editing subset over state-of-the-art methods.
+> Abstract: Video unified models exhibit strong capabilities in understanding and generation, yet they struggle with reason-informed visual editing even when equipped with powerful internal vision-language models (VLMs). We attribute this gap to two factors: 1) existing datasets are inadequate for training and evaluating reasoning-aware video editing, and 2) an inherent disconnect between the models' reasoning and editing capabilities, which prevents the rich understanding from effectively instructing the editing process. Bridging this gap requires an integrated framework that connects reasoning with visual transformation. To address this gap, we introduce the Reason-Informed Video Editing (RVE) task, which requires reasoning about physical plausibility and causal dynamics during editing. To support systematic evaluation, we construct RVE-Bench, a comprehensive benchmark with two complementary subsets: Reasoning-Informed Video Editing and In-Context Video Generation. These subsets cover diverse reasoning dimensions and real-world editing scenarios. Building upon this foundation, we propose the ReViSE, a Self-Reflective Reasoning (SRF) framework that unifies generation and evaluation within a single architecture. The model’s internal VLM provides intrinsic feedback by assessing whether the edited video logically satisfies the given instruction. The differential feedback that refines the generator’s reasoning behavior during training. Extensive experiments on RVE-Bench demonstrate that ReViSE significantly enhances editing accuracy and visual fidelity, achieving a 32% improvement of Overall score in reasoning-informed video editing subset over state-of-the-art methods.
+<details>
+<summary>CLICK for the RVE-Bench abstract</summary>
 
- ![image](./assets/data.png)
+![image](./assets/data.png)
+
+</details>
+
 ## 🚧 Todo
 - [√] Release pre-trained checkpoints on RVE-Bench
 - [√] Release the inference code of our model to facilitate further research and reproducibility.
@@ -38,7 +45,7 @@ export LD_LIBRARY_PATH="${CUDA_HOME}/lib64:${LD_LIBRARY_PATH}"
 export PYTHONPATH="${PWD}:${PWD}/nets/third_party:${PYTHONPATH}"
 ```
 3. Downloading checkpoints
-Download our pretrained model checkpoint [here](https://huggingface.co/xiaomi-research/dggt/resolve/main/model_difix.pkl?download=true).
+Download our pretrained model checkpoint [here](https://huggingface.co/sophiaa/revise/tree/main/revise_ckpt).
 
 ### Inference
 ```bash

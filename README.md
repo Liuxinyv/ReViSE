@@ -112,3 +112,18 @@ For detailed usage instructions, please refer to the [SETUP_MODELS.md](SETUP_MOD
 
 ## Acknowledgement
 We would like to thank [Omni-Video](https://github.com/SAIS-FUXI/Omni-Video), [VILA](https://github.com/NVlabs/VILA) and [Wan2.1](https://github.com/Wan-Video/Wan2.1) for their excellent work. 
+
+## Citation
+If you find this project useful, please consider citing:
+
+```
+@misc{liu2025revisereasoninformedvideoediting,
+      title={ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning}, 
+      author={Xinyu Liu and Hangjie Yuan and Yujie Wei and Jiazheng Xing and Yujin Han and Jiahao Pan and Yanbiao Ma and Chi-Min Chan and Kang Zhao and Shiwei Zhang and Wenhan Luo and Yike Guo},
+      year={2025},
+      eprint={2512.09924},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.09924}, 
+}
+```

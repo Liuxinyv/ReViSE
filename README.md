@@ -79,7 +79,7 @@ For detailed usage instructions, please refer to the [SETUP_MODELS.md](SETUP_MOD
 
   <tr>
     <td colspan="2" style="text-align:center; padding:6px;">
-      <strong>What if the girl’s fragrance gently attracted a delicate butterfly, fluttering toward her?</strong>
+      <strong>What if the scene transitioned from a magical night to a dawn, causing the northern lights to fade away?</strong>
     </td>
   </tr>
   <tr>
@@ -93,7 +93,7 @@ For detailed usage instructions, please refer to the [SETUP_MODELS.md](SETUP_MOD
 
   <tr>
     <td colspan="2" style="text-align:center; padding:6px;">
-      <strong>What if the scene transitioned from a magical night to a dawn, causing the northern lights to fade away?</strong>
+      <strong>What if the girl’s fragrance gently attracted a delicate butterfly, fluttering toward her?</strong>
     </td>
   </tr>
   <tr>
